@@ -1,2 +1,3 @@
-# aula07_dh
-Aula de Git e JS
+Aula 07 - Noções de GIT
+
+Data: 27/07/2020
