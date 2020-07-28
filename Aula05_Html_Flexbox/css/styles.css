@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html{
+    width: 100%;
+    margin: 0;
+    background-image: url('../images/fundo.jpg');
+}
+
+.background{
+    width: 100%;
+    position: absolute;
+    background: rgba(255,255,255,0.5);
+    
+}
+
+.conteudo{
+    margin: 0 auto;
+    max-width: 960px;
+    padding:0 2%;
+}
+
+.topo{
+    width:960px;
+    height: 100px;
+    text-align: center;
+}
+
+.menu{
+    width: 980px;
+}
+
+.menu ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu ul li {
+    background-color: #353434;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    margin: 10px 12px 10px 0px;
+    width: 150px;
+}
+
+.menu ul li:hover {
+    background-color: #696969;
+}
+
+.content{
+    width: 960px;
+}
+
+.row{
+    width: 100%;
+    display:inline-flex;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w30{
+    position: relative;
+
+}
+.ofer{
+    width: 60px;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 5px;
+}
+.produto{
+    width: 312px;
+    margin: 10px 12px 10px 0px;
+    height: 150px;
+}
+
+.nomeProduto{
+    width: 312px;
+    filter:alpha(opacity=30);
+    background-color: rgba(10,23,55,0.5);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+}
+
+.texto h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.texto p{
+    font-size: 12px;
+}
+
+.btnVerMais{
+    width: 80px;
+    color: #ffffff;
+    border: 0;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    background-color: #353434;
+}
+
+.btnVerMais:hover{
+    background-color: #696969;
+}
+
+footer{
+    padding-top: 20px;
+    text-align: center;
+    width: 960px;
+    height: 60px;
+    color: #ffffff;
+    background-color: rgb(194, 46, 46);
+    font-size: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #000000;
+}
