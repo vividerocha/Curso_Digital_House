@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <div class="container">
+            <footer>
+                <ul class="menu">
+                    <li><a href="index.html">Inicial</a></li>
+                    <li><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </footer>
+            <h1>Formulário de Contato</h1>
+
+            
+                <form>
+                    <div class="linha">
+                        <div class="label">
+                            Nome:
+                        </div>
+                        <div class="campo">
+                            <input type="text" name="nome" required><span style="color:red;"> * </span>
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="label">
+                            Sobrenome:
+                        </div>
+                        <div class="campo">
+                            <input type="text" name="sobrenome" required><span style="color:red;"> * </span>
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="label">
+                            Email:
+                        </div>
+                        <div class="campo">
+                            <input type="email" placeholder="exemplo@email.com" required><span style="color:red;"> * </span>
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="label">
+                            Assunto:
+                        </div>
+                        <div class="campo">
+                            <select name="assunto">
+                            <optgroup>
+                                <option value="email">Conteúdo diverso</option>
+                                <option value="particular">Particular</option>
+                                <option value="promocao">Promoção</option>
+                                <option value="social">Social</option>
+                            </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="linha">
+                        <div class="label">
+                            Gênero:
+                        </div>
+                        <div class="campo">
+                            <input type="radio" name="genero" value="feminino">Feminino
+                            <input type="radio" name="genero" value="masculino">Masculino
+                            <input type="radio" name="genero" value="nenhum">Prefiro não Responder
+                        </div>
+                    </div>
+
+                    <div class="linha">
+                        <div class="label">
+                            Passatempos:
+                        </div>
+                        <div class="campo">
+                            <input type="checkbox" name="passatempo" value="Filmes">Filmes
+                            <input type="checkbox" name="passatempo" value="Livros">Livros
+                            <input type="checkbox" name="passatempo" value="Parques">Passeios em parques
+                            <input type="checkbox" name="passatempo" value="Praia">Passeio em praia
+                            <input type="checkbox" name="passatempo" value="Viagem">Viajar
+                        </div>
+                    </div>
+
+                    <div class="linha">
+                        <div class="label">
+                            Comentários:
+                        </div>
+                        <div class="campo">
+                            <textarea rows="5" cols="60" required>
+
+                            </textarea> <span style="color:red;"> * </span>
+                        </div>
+                    </div>
+
+                    <div class="linha">
+                        <button value="Enviar" class="btnEnviar">Enviar</button>
+                        <button value="Excluir" class="btnExcluir">Excluir</button>
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+</body>
+</html>
