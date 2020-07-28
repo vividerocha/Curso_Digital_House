@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html{
+    width: 100%;
+    margin: 0;
+    background-image: url('../images/fundo.jpg');
+}
+
+.background1{
+    width: 100%;
+    position: absolute;
+    background: rgba(255,255,255,0.5);
+    
+}
+
+.menu-item{
+    background-color: #353434;
+    color: #ffffff;
+    text-align: center;
+    list-style: none;
+    width: 160px;
+    margin-bottom: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-item:hover {
+    background-color: #696969;
+}
+
+.banner{
+
+    padding: 0;
+}
+
+.ofer{
+    width: 60px;
+    position: absolute;
+    margin-left: -80px;
+    margin-top: 5px;
+}
+.produto{
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 160px;
+}
+
+.nomeProduto{
+    width: 92%;
+    filter:alpha(opacity=30);
+    background-color: rgba(10,23,55,0.5);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+}
+
+.texto h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.texto p{
+    font-size: 12px;
+}
+
+.btnVerMais{
+    width: 80px;
+    color: #ffffff;
+    border: 0;
+    padding: 5px;
+    margin: 10px 0px 10px 0px;
+    background-color: #353434;
+}
+
+.btnVerMais:hover{
+    background-color: #696969;
+}
+
+.footer{
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    color: #ffffff;
+    background-color: rgb(194, 46, 46);
+    font-size: 15px;
+    border-radius: 10px 10px 0 0;
+}
+
+.footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #000000;
+}
+
+@media only screen and (max-width: 620px) {
+    .menu-item{
+        background-color: #353434;
+        color: #ffffff;
+        text-align: center;
+        list-style: none;
+        width: 100%;
+        margin-bottom: 12px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+}
