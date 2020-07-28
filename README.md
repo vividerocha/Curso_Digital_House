@@ -1,3 +1,1 @@
-Aula 07 - Noções de GIT
-
-Data: 27/07/2020
+Repositório com as atividades desenvolvidas no curso JAVA FULLSTACK da Digital House
