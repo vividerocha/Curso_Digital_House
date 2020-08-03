@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Estourando balões</title>
+		<link href="style.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<script src="jogo.js" ></script>
+	</head>
+
+	<body onload="iniciarJogo()">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-3"></div>
+				<div class="col-2"><img src="imagens/balao_azul_grande.png"><span id="baloes_inteiros" style="font-size: 40px;"></span></div>
+				<div class="col-2"><img src="imagens/balao_azul_grande_estourado.png"><span id="baloes_estourados" style="font-size: 40px;"></span></div>
+				<div class="col-2">
+					<table style="width: 140px; height: 132px;" >
+						<tr>
+							<td style="background: url('imagens/cronometro.png'); text-align: center;">
+								<span id="cronometro" style="color: red; font-size: 30px;"></span>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="col-3"></div>
+			</div>
+			<div class="row text-center">
+				<div class="col-12">
+					<div id="cenario">
+				
+					</div>
+				</div>
+			</div>
+			<div class="row" style="height:30px;">
+
+			</div>
+			<div class="row bg-light" style="height: 50px;">
+				<div class="col-6"></div>
+				<div class="col-2" style="padding-top: 10px;"><button class="btn-primary" onclick="reiniciar();" id="btnReiniciar">Reiniciar Jogo</button></div>
+				<div class="col-2" style="padding-top: 10px;"><button class="btn-danger" onclick="pausar();" id="btnPausar">Pausar</button></div>
+				<div class="col-2"></div>
+			</div>
+			
+		</div>
+			
+	</body>
+	
+</html>
