@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Andrew",
+      "location": "USA"
+    },
+    {
+      "id": 2,
+      "name": "Juliano",
+      "location": "Canadá"
+    },
+    {
+      "id": "3",
+      "name": "Rafael",
+      "location": "Brasil"
+    },
+    {
+      "id": "4",
+      "name": "Mariana",
+      "location": "Ceilândia"
+    },
+    {
+      "id": "5",
+      "name": "Jonnes",
+      "location": "Ceilândia"
+    },
+    {
+      "id": "6",
+      "name": "João",
+      "location": "Guará"
+    },
+    {
+      "id": "7",
+      "name": "Tereza",
+      "location": "Asa Norte"
+    },
+    {
+      "id": "8",
+      "name": "Joaquim",
+      "location": "Asa Sul"
+    },
+    {
+      "id": "9",
+      "name": "Ferdinando",
+      "location": "Lago Sul"
+    }
+  ]
+}

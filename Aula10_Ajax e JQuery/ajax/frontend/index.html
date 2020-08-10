@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="css/estilo.css" type="text/css" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+    
+</head>
+<body onload="carregar()">
+    <div class="container">
+        <div class="box">
+            <div class="titulo">
+                <h1>CRUD Feito em Javascript e JQUERY</h1>
+            </div>
+            <div class="formulario">
+                <form id="form1">
+                    <div class="row">
+                        <div class="label">ID:</div><div class="campo"><input type="text" id="id"></div>
+                    </div>
+                    <div class="row">
+                        <div class="label">Nome:</div><div class="campo"><input type="text" id="name"></div>
+                    </div>
+                    <div class="row">
+                        <div class="label">Endereço:</div><div class="campo"><input type="text" id="location"></div>
+                    </div>
+                    <div class="row">
+                        <button type="button" id="btnSubmit" class="botao" onclick="submeter(event)">Enviar</button>
+                        <button type="button" id="btnAtualizar" class="botao" onclick="atualizar(event)">Atualizar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <table id="tabelaNomes">
+                    <thead>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Endereço</th>
+                        <th colspan="2">Ações</th>
+                    </thead>
+                    <tbody id="bodyTabela">
+            
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>

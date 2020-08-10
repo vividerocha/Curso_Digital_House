@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(245, 245, 245);
+    margin: 0px;
+}
+
+.box{
+    width: 800px;
+    background: #fff;
+    padding:30px;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row{
+    margin-bottom: 20px;
+    display: flex;
+    width: 80%;
+}
+
+.col30{
+    width: 30%;
+}
+
+.col40{
+    width: 40%;
+}
+
+.mensagem{
+    color: red;
+}
+
